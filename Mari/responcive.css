@@ -1,0 +1,23 @@
+@media only screen and (max-width:1024px) {
+    .carousel-caption1 h1 {
+        font-size: 3rem;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .subjects .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .nav-bar {
+        display: none;
+    }
+}
